@@ -179,14 +179,16 @@ input::placeholder{
 .icones-post{
     font-size: 17.87px;
     display: flex;
+    /*border: 1px solid green;*/
 }
 
-.icones-post div{
+.icones-post .icons{
     width: 90px;
     margin-top: 12px;
     margin-left: 17px;
     display: flex;
     justify-content: space-between;
+   
 }
 
 .buttom-salvar{
@@ -202,10 +204,14 @@ strong {
 .curtido-por{
     display: flex;
     align-items: flex-end;
-    justify-content: space-between;
     width: 380px;
     margin-left: 17px;
     margin-top: 12px;
+    /*border: 1px solid green*/
+}
+
+.curtido-por img{
+    margin-right: 5px;
 }
 
 .sidebar{
