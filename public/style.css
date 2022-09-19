@@ -172,8 +172,15 @@ input::placeholder{
     width: 100px;
 }
 
+
+
 .post-midia{
     height: 612px;
+}
+
+.post-midia img{
+    height: 612px;
+    width: 612px;
 }
 
 .icones-post{
@@ -189,6 +196,14 @@ input::placeholder{
     display: flex;
     justify-content: space-between;
    
+}
+
+/*.icones-post .icons div ion-icon{
+    color: red !important;
+}*/
+
+.coracao{
+    color: red !important;
 }
 
 .buttom-salvar{

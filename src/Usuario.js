@@ -6,7 +6,7 @@ function User(prop) {
             <img src={prop.img} alt="sugestao-principal" width="56px" height="56px" onClick={prop.mudaImagem}/>
             <div>
                 <p>catanacomics</p>
-                <p>{prop.name} <span onClick={prop.mudaNome}>mudanome</span></p>
+                <p>{prop.name} <span onClick={prop.mudaNome}><ion-icon name="pencil-outline"></ion-icon></span></p>
             </div>
         </div>
     )
